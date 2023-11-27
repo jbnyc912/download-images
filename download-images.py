@@ -1,3 +1,4 @@
+
 import streamlit as st
 import requests
 
@@ -15,6 +16,3 @@ if st.button('Download Images'):
     for url in url_list:
         download_image(url)
     st.success('Download Complete')
-  
-if __name__ == "__main__":
-    main()
